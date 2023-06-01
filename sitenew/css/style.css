@@ -310,7 +310,7 @@ body {
     }
 
     .containerMockup {
-        height: 1000px !important;
+        height: 885px !important;
     }
     .boxMockup {
         display: flex;
@@ -324,26 +324,31 @@ body {
     }
 
     .containerMockup .boxMockup .mockupText {
-        max-width: 380px !important;
+        max-width: 450px !important;
+        text-align: center;
     }
 
     .containerPromotion {
         align-items: center;
-        top: 65px;
+        top: 85px;
     }
 
     .containerPromotion .boxPromotion {
         flex-direction: column;
         width: 80% !important;
-        height: 280px !important;
+        height: 220px !important;
+        padding: 10px 0 0 !important;
     }
     .containerPromotion .boxPromotion .boxPricePromotion {
         width: 100% !important;
     }
     .containerPromotion .boxPromotion .boxPricePromotion h2 {
-        font-size: 2.6em !important;
+        font-size: 2.8em !important;
     }
-
+    .containerPromotion .boxPromotion .boxTextPromotion {
+        padding: 10px 8px 15px 10px !important;
+        text-align: center;
+    }
     .boxAvaliacoes {
         flex-direction: column;
     }
@@ -353,7 +358,7 @@ body {
     .containerAvaliacoes .boxAvaliacoesTitle {
         width: 90% !important;
         font-size: 1.8rem !important;
-        margin-top: 205px !important;
+        margin-top: 180px !important;
     }
 
     .boxSobre {
@@ -365,7 +370,7 @@ body {
         gap: 35px !important;
     }
     .cardSobre img {
-        width: 60%;
+        width: 55%;
     }
     .cardSobreText {
         gap: 20px;
@@ -378,7 +383,7 @@ body {
         gap: 35px !important;
     }
     .cardSobreleft img {
-        width: 60%;
+        width: 55%;
     }
     .cardSobreTextLeft {
         gap: 20px;
